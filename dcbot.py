@@ -7,20 +7,20 @@ from discord.ext.commands import has_permissions, MissingPermissions
 
 # Config Kısmı
 
-token             = ''
-prefix            = ''
-logkanali         = '' # kanal id
-giriskanali       = '' # kanal id
-cikiskanali       = '' # kanal id
-kayıtsız          = '' # Rol adı
-whitelist         = '' # Rol adı
-tsip              = ''
-serverip          = ''
-discordurl        = 'http://discord.gg/'
-aktifimage    = ''
-restartimage  = ''
-bakımimage    = ''
-servericon    = ''
+token             = 'ODUwNzc5NTQyOTcyMDA2NDkx.YLusMQ.d3UJZMvqREvofU1TEvL_OohtAnU'
+prefix            = '.'
+logkanali         = '941742494612324352' 
+giriskanali       = '939900539553087530' 
+cikiskanali       = '939900539553087530' 
+kayıtsız          = '941742634903420948' 
+whitelist         = '941742688556961872' 
+tsip              = '1881'
+serverip          = '1881'
+discordurl        = 'https://discord.gg/AHxM37ay'
+aktifimage    = 'https://cdn.discordapp.com/attachments/936287990685249656/939963962731151360/Ekran_goruntusu_2022-02-06_213213.png'
+restartimage  = 'https://cdn.discordapp.com/attachments/936287990685249656/939963962731151360/Ekran_goruntusu_2022-02-06_213213.png'
+bakımimage    = 'https://cdn.discordapp.com/attachments/936287990685249656/939963962731151360/Ekran_goruntusu_2022-02-06_213213.png'
+servericon    = 'https://cdn.discordapp.com/attachments/936287990685249656/939963962731151360/Ekran_goruntusu_2022-02-06_213213.png'
 
 # Tüm Configleri Doldurmadan Bot Tam Anlamıyla Çalışmaz
 
@@ -180,4 +180,4 @@ async def on_member_remove(member):
         giriskanal = client.get_channel(int(cikiskanali))
         await giriskanal.send(member.mention, embed=cikisembed)
 
-client.run(f'{token}')
+client.run(f'{ODUwNzc5NTQyOTcyMDA2NDkx.YLusMQ.d3UJZMvqREvofU1TEvL_OohtAnU}')
